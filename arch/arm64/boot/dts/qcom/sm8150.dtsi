@@ -2156,6 +2156,7 @@
 				     "qcom,inline-crypto-engine";
 			reg = <0 0x01d90000 0 0x8000>;
 			clocks = <&gcc GCC_UFS_PHY_ICE_CORE_CLK>;
+			freq-table-hz = <0 300000000>;
 		};
 
 		cryptobam: dma-controller@1dc4000 {
